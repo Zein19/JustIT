@@ -1,0 +1,41 @@
+
+
+.p1{
+    font-family: 'Athiti', sans-serif;
+    font-size: 20px;
+    color: blue;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.p2{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+    color: green;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.p3{
+    font-family: 'Athiti', sans-serif;
+    color: brown;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p4{
+    font-family: 'Athiti', sans-serif;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p5{
+    font-family: 'Athiti', sans-serif;
+    color: purple;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+
