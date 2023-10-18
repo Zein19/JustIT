@@ -1,0 +1,9 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    background-image: url(emmali-millard-8KAO-cYopFA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: top 10px left 10px;
+}

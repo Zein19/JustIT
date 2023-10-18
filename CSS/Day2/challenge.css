@@ -1,0 +1,20 @@
+body{
+    background-color: green;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    border-top: orange dashed 5px;
+    border-right: solid 5px lawngreen;
+    border-bottom: dotted white 5px;
+    border-left: solid 5px black;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
