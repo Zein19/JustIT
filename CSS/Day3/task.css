@@ -1,0 +1,45 @@
+header{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li{
+    margin: 0.2em 1em ;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: solid 1px blue;
+    padding: 1em;
+    border-radius: 30%;
+    background-color: yellow;
+}
+
+a:hover{
+    opacity: 70%;
+    background-color: white;
+    text-decoration: underline;
+}
+
+div{
+    padding: 20px 10px;
+    border: solid navy 5px;
+    overflow: hidden;
+}
+
+img{
+    width: 200px;
+    float: left;
+}
+
+p{
+    padding: 10px;
+}

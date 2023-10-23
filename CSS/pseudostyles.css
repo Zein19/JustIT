@@ -1,0 +1,40 @@
+        a:link {
+            color: rgb(255, 0, 149); /* Unvisited links will be pink */
+        }
+
+        a:visited {
+            color: rgb(255, 187, 0); /* Visited links will be gold */
+        }
+
+        a:hover {
+            color: rgb(16, 255, 8); /* Link will turn green on hover */
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        ul li:first-child {
+            font-weight: bold; /* First list item is bold*/
+        }
+
+        ul li:last-child {
+            font-style: italic; /* Last list item will be italic*/
+        }
+
+        ul li:nth-child(odd) {
+            background-color: #f0f0f0; /* Odd listed items will be with a white background*/
+        }
+
+        input:enabled {
+            border: 1px solid #ccc; /* This input field is enabled */
+        }
+
+        input:disabled {
+            background-color: #eee; /* This input field is Disabled */
+        }
+
+        input:valid {
+            border-color: green; /* If input is valid the field will turn green */
+        }
+
+        input:invalid {
+            border-color: red; /* If input is invalid the field will turn red */
+        }

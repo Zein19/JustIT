@@ -1,0 +1,38 @@
+.first{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: blue;
+}
+
+.first:hover{
+    z-index: 10;
+}
+
+.second{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    background-color: yellow;
+}
+
+.second:hover{
+    z-index: 10;
+}
+
+.third{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    background-color: red;
+}
+
+.third:hover{
+    z-index: 10;
+}
