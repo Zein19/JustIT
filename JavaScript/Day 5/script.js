@@ -8,7 +8,7 @@ const person = {
     city: "London",
 }
 
-console.log(person)
+console.table(person)
  
 // 2: Without editing the original person object add a list of your favourite songs to the person object and log the list to the console.
 
