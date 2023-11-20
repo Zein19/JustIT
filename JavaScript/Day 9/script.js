@@ -1,4 +1,11 @@
 const time = document.getElementById('time')
+const random = document.getElementById('random')
+const btn = document.getElementById('btn')
+btn.addEventListener('click', randomNumber)
+
+function randomNumber(){
+    random.innerText=Math.round(Math.random()*100)
+}
 
 function setTime() {
     const now = new Date();
