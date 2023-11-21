@@ -1,28 +1,19 @@
 import React from 'react'
 
-function Sidebar() {
+function Sidebar({ topAnime }) {
   return (
     <aside className='side-bar'>
         <nav>
             <h3>Top Anime</h3>
-            <a
-                href='#'
+            {topAnime.map(anime => (
+                <a
+                href={anime.url}
                 target='blank'
                 rel='noreferrer'>
                 One Piece
             </a>
-            <a
-                href='#'
-                target='blank'
-                rel='noreferrer'>
-                One Piece
-            </a>
-            <a
-                href='#'
-                target='blank'
-                rel='noreferrer'>
-                One Piece
-            </a>
+            ))}
+            
         </nav>
     </aside>
   )

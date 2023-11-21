@@ -4,7 +4,7 @@ import AnimeCard from './AnimeCard'
 function Main() {
   return (
     <main>
-        <div>
+        <div className='main-head'>
             <form className='search-box'>
                 <input
                 type='search'

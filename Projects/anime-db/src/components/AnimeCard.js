@@ -2,7 +2,7 @@ import React from 'react'
 
 function AnimeCard() {
   return (
-    <article>
+    <article className='anime-card'>
         <a
             href='#'
             target='_blank'
@@ -11,7 +11,7 @@ function AnimeCard() {
             <figure>
                 <img
                     src='#'
-                    alt='Anime Image'
+                    alt='Anime Pic'
                 />
             </figure>
             <h3>Anime Title</h3>
