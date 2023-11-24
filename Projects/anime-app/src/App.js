@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './Components/style.css'
 import { useEffect, useState } from 'react';
 import AnimeList from './Components/AnimeList';
 import AnimeInfo from './Components/AnimeInfo';
+import { AddToList } from './Components/AddToList';
 
 function App() {
 
@@ -11,6 +11,13 @@ function App() {
   const [animeData,setAnimeData]=useState()
 
   const [animeInfo, setAnimeInfo]=useState()
+
+  // const [myAnimeList, setMyAnimeList]=useState([])
+
+  // const addTo = (anime =>{
+  //   const newArray=[...myAnimeList,anime]
+  //   setMyAnimeList(newArray);
+  // })
 
   const getData=async()=>{
     const res=await fetch(`https://api.jikan.moe/v4/anime?q=${search}&limit=20`)
@@ -45,8 +52,12 @@ function App() {
             <AnimeList 
               animeList = {animeData}
               setAnimeInfo = {setAnimeInfo}
+              animeComponent = {AddToList}
+              // handleList = {(anime)=>addTo(anime)}
             />
           </div>
+          {/* <h2 className='text-heading'>My List</h2> */}
+        
         </div>
       </div>
     </div>
